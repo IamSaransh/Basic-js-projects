@@ -1,0 +1,45 @@
+body{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img{
+    height: 150px;
+    width:150px;
+}
+
+
+.flex-box-rps img:hover{
+    box-shadow: 5px 3px 8px goldenrod;
+
+}
+.container-1, .container-2, .container-3{
+    border: 1px solid black; 
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: whitesmoke;
+    background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+
+.flex-box-rps, .flex-box-cat, .flex-box-color{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border: black  solid 3px;
+    
+}
+.container-1 h1 , .container-2 h1 ,.container-3 h1{
+    border: 2px solid black;
+    color:white;
+    background-image: linear-gradient(to right,black ,grey);
+}
+
+
+

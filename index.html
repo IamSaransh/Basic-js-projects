@@ -1,0 +1,68 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <script src="js/home.js"></script>
+
+    <!--  Rock paper scisosor -->
+    
+        <div class="container-1">
+            <h1>this is our rock paper and scissor</h1>
+        
+            <div class="flex-box-rps" id="flex-box-rps-div">
+
+                <img height=150px width=150px  id="rock" src="https://image.shutterstock.com/image-vector/family-gathering-cartoon-vector-rocks-260nw-173317940.jpg" onclick="rpsGame(this)">
+                <img height= 150px width= 150px  src="https://i.ya-webdesign.com/images/cartoon-paper-png-4.png" id="paper" onclick="rpsGame(this)" >
+                <img height= 150px width= 150px  src="https://comps.canstockphoto.com/cool-bunny-or-rabbit-victory-hand-sign-illustration_csp53823120.jpg " id="scissor" onclick="rpsGame(this)" >
+            
+            </div>
+        </div>
+
+
+
+<!--  generate cat chaellane -->
+
+ <div class="container-2" >
+     <h1>Click on button to generate and append random image</h1>
+     <button class="btn btn-success" onclick="generateCat()"> Generate Cat</button>
+     <div class="flex-box-cat" id="flex-box-catt">
+
+
+     </div>
+ </div>
+
+
+ <!-- button color change function-->
+
+ <div class="container-3">
+     <h1>select and change color of all the buttons on this page</h1>
+     <div class="flex-box-color">
+         <form action="">
+            <select class="custom-select" name='backdrop' id="backgrounds" onchange="ChangeColor(this)">
+                <option  value="random">select one</option>
+                <option  value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="random">Random</option>
+                <option value="reset">reset</option>
+              </select>
+                
+         </form>
+         <button name="red"  class="btn btn-primary">Hello</button>
+         <button name="red"  class="btn btn-dark">Hello</button>
+         <button name="red"  class="btn btn-warning">Hello</button>
+         <button name="red"  class="btn btn-danger">Hello</button>
+     </div>
+
+ </div>
+    
+    
+</body>
+</html>
