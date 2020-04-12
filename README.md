@@ -5,4 +5,4 @@ This project comtains Three basic vanilla javascript projects
 3. Change the coloor theme of the buttons on the website
 
 
-![Overview](https://github.com/Sonny1314/resume/blob/master/resume.jpg)
+![Overview](https://github.com/Sonny1314/Basic-js-projects/blob/master/page.png)
